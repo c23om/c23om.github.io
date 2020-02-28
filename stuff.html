@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style type="text/css">
+		#owen{
+			background-color: navy;
+			width:500px;
+			height:300px;
+			background-image:url(https://images.earthtouchnews.com/media/385300/kangaroo_joey_2014_06_24.jpg);
+			background-size:contain;
+			background-repeat:no-repeat;
+
+
+		}
+
+		#owen:hover{
+			transform:rotate(720deg);
+			transition:1s;
+		}
+
+	</style>
+
+</head>
+
+
+<body>
+
+
+		<div id="owen"></div>
+
+
+<a href="https://www.youtube.com/">Youtube can be a rabbit hole of things...</a>
+
+<p>Favorite youtube videos:</p>
+
+<ul>
+	<li>dggf</li>
+	<li>sdfghjkjhgfs</li>
+</ul>
+
+This is my little calculator...
+<input id="a"></input>
+<input id="b"></input>
+<button id="math">multiply!</button>
+<input id="c"></input>
+
+<script>
+	
+	let a = document.getElementById('a');
+		let b = document.getElementById('b');
+	let c = document.getElementById('c');
+let button = document.getElementById('math');
+
+button.addEventListener("click", function(){
+	console.log('hello owen!');
+	c.value = a.value*b.value;
+	});
+
+
+</script>
+
+</body>
+</html>
